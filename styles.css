@@ -1,0 +1,61 @@
+/* styles.css */
+
+/* Sidebar Styling */
+.fixed-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1000;
+}
+
+.sidebar-header {
+    background-color: #343a40;
+}
+
+.navbar-nav .nav-item {
+    width: 100%;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    padding: 15px;
+    transition: all 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #495057;
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Hover Effects */
+.navbar-nav .nav-item .nav-link i {
+    margin-right: 10px;
+}
+
+/* Responsive: Adjust for smaller screens */
+@media (max-width: 768px) {
+    .fixed-left {
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 16px;
+    }
+}
+
+table {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+th, td {
+    text-align: center;
+}
+
