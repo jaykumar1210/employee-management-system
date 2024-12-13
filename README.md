@@ -35,4 +35,4 @@ Before running the project, ensure you have the following installed:
 1. **Clone the Repository**:
    Clone this repository to your local machine using the following command:
    ```bash
-  
+  https://github.com/jaykumar1210/employee-management-system.git
